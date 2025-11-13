@@ -1,8 +1,17 @@
-# Lunix Go | Suporte Técnico
+# Lunix Go | Technical Support
 
-O projeto a seguir refere-se a uma solução de desenvolvimento voltada para um negócio de reparo de equipamento eletrônicos. Trata-se, portanto, de um site por meio do qual é possível ter acessos aos serviços, ao preço e ao responsável pela empresa.
+![Static Badge](https://img.shields.io/badge/build-euquero%20dozar)
+![Static Badge](https://img.shields.io/badge/build-hugo-purple?style=plastic)
+![Static Badge](https://img.shields.io/badge/go-golang-brightgreen?style=plastic)
+![Static Badge](https://img.shields.io/badge/build-netlify-orange?style=plastic)
+![Static Badge](https://img.shields.io/badge/entrepreneurship-purple?style=plastic)
 
-Para sua construção, foi realizado as seguinte ferramentas:
+### Introduction
+This guide covers the necessary bits.
+
+The following project refers to a development solution focused on an electronic equipment repair business. It is, therefore, a website through which it is possible to access services, prices, and the person responsible for the company.
+
+The following tools were used for its construction:
 
 - [Hugo Framework](https://gohugo.io/)
 
@@ -12,47 +21,62 @@ Para sua construção, foi realizado as seguinte ferramentas:
 
 ![Hugo Compose Theme](https://raw.githubusercontent.com/onweru/compose/master/images/tn.png)
 
-### Seções
+### Sections
 
-1. Serviços
-
-```
-Será disponibilizado uma tabela com os respectivos valores referentes aos serviços oferecidos. São estes:
-
-    1.1. Suporte para computadores;
-    1.2. Suporte para celulares;
-    1.3. Suporte para impressora; 
-    1.4. Suporte para rede;
-    1.5. Medidas de segurança;
-    1.6. Desenvolvimento.
-```
-
-2. Contatos
+1. Services
 
 ```
-Estará disponível o contato da equipe técnica responsável pela solicitação.
+In this section, a table will be provided showing the prices for the services offered. These are:
+
+1.1. Computer support;
+1.2. Mobile phone support;
+1.3. Printer support;
+1.4. Network support;
+1.5. Security measures;
+1.6. Development.
 ```
 
-3. Redes Sociais
+2. Contacts
 
-4. Cartão de Visita
+```
+Customers who have access to this tab on the website can contact the project managers either via WhatsApp or by sending an email.
+```
 
-5. Sobre
+3. Social Networks
+```
+The following social networks are available:
 
-## ExampleSite
+    3.1. LinkedIn;
+    3.2. GitHub;
+    3.3. Dev.to;
+    3.4. HackerRank;
+    3.5. Medium.
+```
 
-The [exampleSite](https://github.com/onweru/compose/tree/master/exampleSite) serves as this theme's [user guide](https://composedocs.netlify.app/docs/compose/install-theme/) .
+4. Bussiness Card
+```
+You can download the Lunix Go's digital bussiness card.
+```
 
-This guide covers the necessary bits. As the project evolves, the user-guide will get more comprehensive
+5. About
+```
+Description of the person responsible for creating the venture, as well as the responsibility for their professional activities.
+```
+
+### How to run it
+
+<!--The [exampleSite](https://github.com/onweru/compose/tree/master/exampleSite) serves as this theme's [user guide](https://composedocs.netlify.app/docs/compose/install-theme/)-->
 
 You can use Hugo to generate and serve a local copy of the guide (also useful for testing local theme changes).
 
 ```
-git clone --recurse-submodules --depth 1 https://github.com/onweru/compose.git
-cd compose/exampleSite/
-hugo server --themesDir ../..
+git clone https://github.com/lucaxgomex/lunixgo-website-template.git
+
+cd lunixgo-website-template/
+
+hugo server -D
 ```
 
-## License
+### License
 
 This theme is available under the [MIT license](https://github.com/onweru/compose/blob/master/LICENSE).
